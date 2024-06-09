@@ -1,0 +1,11 @@
+
+#box{
+    width:350px;
+    height: 350px;
+    background-color: red;
+    /* background: rgb(207, 152, 161); */
+    text-align: center;
+    line-height: 300px;
+    font-size: 150px;
+    font-weight: bolder;
+}
