@@ -14,8 +14,8 @@ function startCounting(){
     if(intervalId === null){
         intervalId = setInterval(function(){
             let figure =parseInt(box.textContent);
-            if(figure > 0){
-                figure--
+            if(figure < 15){
+                figure++
                 box.textContent = figure
                 console.log("fine")
                 
